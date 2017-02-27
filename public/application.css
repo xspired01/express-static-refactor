@@ -1,0 +1,89 @@
+html{
+  height:100%;
+  width:100%;
+  margin:5px;
+}
+body {
+  height: 100%;
+  width:100%;
+  padding: 0;
+
+}
+
+.center-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#toast-container {
+  top: auto !important;
+  right: auto !important;
+  bottom: 50%;
+  left:30%;
+}
+
+.header-cont {
+    width:100%;
+    position:fixed;
+    top:0px;
+    z-index:100;
+}
+
+#index-banner{
+  background-image: url("images/calm.png");
+}
+/*.scrollit {
+    overflow:scroll;
+    height:30px;
+}*/
+
+.aligMid{
+  text-align: center;
+}
+
+.alignRight{
+  float: right;
+}
+
+thead, tbody { display: block; }
+
+.scrollit{
+    height: 300px;       /* Just for the demo          */
+    overflow:scroll;
+    /*overflow-y: auto;    /* Trigger vertical scroll    */*/
+    /*overflow-x: hidden;  /* Hide the horizontal scroll */*/
+}
+
+table {
+    width: 100%; /* Optional */
+}
+
+td, th {
+      width: 15%;  /* Optional */
+  }
+
+.tablewid {
+  width:80%;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-content: center;
+}
+
+.input-icon {
+  float: left;
+}
+
+.input-text{
+  float:left;
+  margin-top: 25px;
+}
+
+#map-canvas {
+  width: 100%;
+  height: 900px;
+  margin: 15px;
+  border: 2px solid;
+  /*border-radius: 25px;*/
+  background-color: grey;
+}
